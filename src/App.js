@@ -1,10 +1,14 @@
 import './App.css';
-import MyComponent from './components/MyComponent';
+import Movie from './components/Movie';
+import Genre from './components/Genre';
+import Container from './components/Container';
 
 function App() {
   return (
     <div className="App-header">
-      <MyComponent></MyComponent>
+      <Movie></Movie>
+      <Genre></Genre>
+      <Container></Container>
     </div>
   );
 }
