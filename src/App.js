@@ -1,10 +1,10 @@
-import React from 'react';
-import Container from './components/Container';
+import './App.css';
+import MyComponent from './components/MyComponent';
 
 function App() {
   return (
-    <div class="App-header">
-      <Container />
+    <div className="App-header">
+      <MyComponent></MyComponent>
     </div>
   );
 }
